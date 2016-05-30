@@ -12,10 +12,6 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
-routesGenerator := InjectedRoutedGenerator
-
-fork in run := true
-
 enablePlugins(DebianPlugin)
 maintainer := "TamerB <tamer.bhgt@gmail.com>"
 packageSummary := "My First Custom Package"
