@@ -14,3 +14,8 @@ libraryDependencies ++= Seq(
 
 
 fork in run := true
+
+enablePlugins(DebianPlugin)
+maintainer := "Tamer Bahgat <tamer.bhgt@gmail.com>"
+packageSummary := "My First Custom Package"
+packageDescription := "first custom package"
