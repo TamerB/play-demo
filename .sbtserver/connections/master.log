@@ -1,0 +1,43 @@
+New log file opened at Mon May 30 12:31:08 EET 2016 by 15367@meanmachine-HP-ProBook-4540s
+Taking next connection to: 44089
+New client attempting to connect on port: 33950-44089
+  Address = /127.0.1.1:44089
+This client on port 33950 has uuid a5fe0a81-e0ac-4a2a-ae5c-43f1c0f332dc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a5fe0a81-e0ac-4a2a-ae5c-43f1c0f332dc
+Taking next connection to: 44089
+New client attempting to connect on port: 33951-44089
+  Address = /127.0.1.1:44089
+Handshake exception on socket: 33951
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 44089
+New client attempting to connect on port: 33952-44089
+  Address = /127.0.1.1:44089
+This client on port 33952 has uuid 794bf7a6-004a-40a1-8f19-ed5c4d61dde0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a5fe0a81-e0ac-4a2a-ae5c-43f1c0f332dc, activator-794bf7a6-004a-40a1-8f19-ed5c4d61dde0
+Taking next connection to: 44089
+New client attempting to connect on port: 33953-44089
+  Address = /127.0.1.1:44089
+Handshake exception on socket: 33953
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 44089
+New client attempting to connect on port: 33954-44089
+  Address = /127.0.1.1:44089
+This client on port 33954 has uuid cd920149-fb79-4431-bd43-add08edd2aeb configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a5fe0a81-e0ac-4a2a-ae5c-43f1c0f332dc, activator-794bf7a6-004a-40a1-8f19-ed5c4d61dde0, play-fork-run-cd920149-fb79-4431-bd43-add08edd2aeb
+Taking next connection to: 44089
